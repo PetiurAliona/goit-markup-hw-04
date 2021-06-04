@@ -381,7 +381,7 @@ span {
   align-items: center;
 
   width: 44px;
-  height: 44px;*
+  height: 44px;
   border-radius: 50%;
   background-color: transparent;
 }
@@ -422,7 +422,6 @@ span {
   padding: 16px 32px;
 }
 
-
 .link-clients:hover .icon-logo-clients,
 .link-clients:focus .icon-logo-clients {
   fill: var(--accent-color);
@@ -432,7 +431,6 @@ span {
 .link-clients:focus .icon-logo-clients {
   border: 1px solid var(--accent-color);
 }
-
 
 /*==========Footer==========*/
 
