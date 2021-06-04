@@ -192,6 +192,7 @@ span {
 .hero {
   background-color: var(--dark-bg);
   background-image: linear-gradient(
+      0deg,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
