@@ -445,6 +445,14 @@ span {
   padding-bottom: 60px;
 }
 
+.container-footer {
+  display: flex;
+}
+
+.footer-contacts {
+  margin-right: 70px;
+}
+
 .map {
   color: #ffffff;
 }
@@ -470,15 +478,24 @@ span {
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
-
   color: var(--white-color-text);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
+.title-footer {
+  color: var(--white-color-text);
+}
 
-/* Portolio */
+.social-list-link-dark {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* background: rgba(255, 255, 255, 0.1); */
+
+/* ============Portolio ==============*/
+
 .button-item:not(:last-child) {
   margin-right: 8px;
 }
