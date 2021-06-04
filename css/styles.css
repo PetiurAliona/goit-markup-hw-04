@@ -540,6 +540,7 @@ span {
   letter-spacing: 0.03em;
   border-radius: 4px;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .button-filter:hover,
