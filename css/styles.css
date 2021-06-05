@@ -247,10 +247,14 @@ span {
 /*============Переваги========*/
 
 .icon-box-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  padding: 25px 100px;
+  /* padding: 25px 100px; */
   margin-bottom: 30px;
 }
 
@@ -466,7 +470,7 @@ span {
 .tel {
   color: rgba(255, 255, 255, 0.6);
 }
-.mail {
+.mail-footer {
   margin-bottom: 9px;
   margin-top: 9px;
 }
@@ -486,6 +490,10 @@ span {
 
 .social-list-link-dark {
   background: rgba(255, 255, 255, 0.1);
+}
+
+.social-list-icon-dark {
+  fill: #ffffff;
 }
 
 /* background: rgba(255, 255, 255, 0.1); */
@@ -526,6 +534,9 @@ span {
 
 .button-filter {
   padding: 6px 22px;
+
+  font-family: Roboto;
+  font-style: normal;
 
   color: var(--title-text-color);
   background-color: var(--secondary-bg);
